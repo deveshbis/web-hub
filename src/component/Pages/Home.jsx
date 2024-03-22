@@ -1,10 +1,11 @@
-import NavBar from "./NavBar/NavBar";
+import HomeHero from "../HomeHero/HomeHero";
+
 
 const Home = () => {
     return (
-        <div>
-            <NavBar></NavBar>
-            <h1>Home Pages</h1>
+        <div className="flex relative flex-col items-center justify-center min-h-[calc(100vh-116px)]">
+            <HomeHero></HomeHero>
+        <img className="absolute bottom-0 w-full" src="/src/assets/wave.svg" alt="" />
         </div>
     );
 };
