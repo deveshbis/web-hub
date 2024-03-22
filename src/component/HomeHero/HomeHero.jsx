@@ -6,7 +6,7 @@ const HomeHero = () => {
             <div className="hero">
                 <div className="hero-content text-center">
                     <div className="max-w-lg">
-                        <h1 className="text-5xl font-bold">WellCome to <span>Web Hub</span></h1>
+                        <h1 className="text-5xl font-bold">Wellcome to <span className="text-5xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 bg-300% text-transparent bg-clip-text animate-gradient">Web Hub</span></h1>
                         <p className="py-6">Welcome to WebHub - Your central hub for all things web-related. Join us and discover a world of resources, tools, and community to fuel your online journey.</p>
                         <div className="flex gap-2 justify-center">
                             <Link to='/blogs' className="relative inline-block px-4 py-2 font-medium group">
